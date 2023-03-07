@@ -1,0 +1,35 @@
+<button class="transform transition-all delay-75 duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:shadow-white">
+  <p-card
+  header={{header}}
+  subheader={{subheader}}
+  styleClass="w-80 p-card-shadow text-base cursor-pointer"
+
+>
+  <ng-template pTemplate="header">
+    <img
+      alt="Card"
+      src={{foto}}
+
+    />
+  </ng-template>
+
+  <p class="text-base">{{text}}</p>
+
+  <ng-template pTemplate="footer">
+    <div class="flex justify-between">
+      <p-button
+      label="Save"
+      icon="pi pi-check "
+      styleClass="p-button-secondary text-xs sm:text-sm md:text-base transition duration-300 ease-in-out hover:bg-blue-600"
+    ></p-button>
+    <p-button
+      label="Cancel"
+      icon="pi pi-times"
+      styleClass="p-button-secondary text-xs sm:text-sm md:text-base transition duration-300 ease-in-out hover:bg-red-700"
+    ></p-button>
+    </div>
+  </ng-template>
+
+</p-card>
+</button>
+
