@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FirstModule } from './first';
 
 import { AppComponent } from './app.component';
+import { SecondModule } from './second';
+import { AppPrimeModule, LibModule, SharedModule } from './shared';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SharedModule,
+    FirstModule,
+    SecondModule,
+    LibModule,
+    AppPrimeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
