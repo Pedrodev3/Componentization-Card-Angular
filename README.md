@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/Pedrodev3/Componentization-Card-Angular?style=plastic) ![GitHub language count](https://img.shields.io/github/languages/count/Pedrodev3/Componentization-Card-Angular?style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/Pedrodev3/Componentization-Card-Angular?style=plastic)
+
 # CompCard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
