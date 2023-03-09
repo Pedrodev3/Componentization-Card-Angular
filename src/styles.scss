@@ -3,6 +3,8 @@
 /* Importing PrimeFlex library */
 // @import "../node_modules/primeflex/primeflex.css";
 
+@use './assets/sass/index' as *;
+
 /* Importing Tailwind directives */
 @tailwind base;
 @tailwind components;
